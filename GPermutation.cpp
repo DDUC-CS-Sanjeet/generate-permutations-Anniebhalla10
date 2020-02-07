@@ -3,9 +3,9 @@ using namespace std;
 
 void permutation( char s[] , int loc, int end)
 {
-    static int count=1;
+    
     if(loc==end)
-        cout<<count++<<" : "<<s<<endl;
+        cout<<s<<endl;
     else
     {
         for(int i=loc ; i<=end ; i++)
